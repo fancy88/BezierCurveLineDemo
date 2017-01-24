@@ -17,21 +17,6 @@ static CGRect myFrame;
 
 @implementation BezierCurveView
 
-//初始化画布
-//+(instancetype)initWithFrame:(CGRect)frame{
-//    
-//    BezierCurveView *bezierCurveView = [[NSBundle mainBundle] loadNibNamed:@"BezierCurveView" owner:self options:nil].lastObject;
-//    bezierCurveView.frame = frame;
-//
-//    //背景视图
-//    UIView *backView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
-//    backView.backgroundColor = XYQColor(255, 229, 239);
-//    [bezierCurveView addSubview:backView];
-//    
-//    myFrame = frame;
-//    return bezierCurveView;
-//}
-
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame: frame];
     if (self) {
