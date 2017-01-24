@@ -95,10 +95,10 @@
 -(void)drawLineChart{
     
     //直线
-    //    [_bezierView drawLineChartViewWithX_Value_Names:self.x_names TargetValues:self.targets LineType:LineType_Straight];
+      [_bezierView drawLineChartViewWithX_Value_Names:self.namesArr TargetValues:self.targetsArr LineType:LineType_Straight];
     
     //曲线
-    [_bezierView drawLineChartViewWithX_Value_Names:self.namesArr TargetValues:self.targetsArr LineType:LineType_Curve];
+   // [_bezierView drawLineChartViewWithX_Value_Names:self.namesArr TargetValues:self.targetsArr LineType:LineType_Curve];
 }
 
 
